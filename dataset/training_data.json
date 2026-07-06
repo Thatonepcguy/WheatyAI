@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "Write a Python function to calculate the Fibonacci sequence up to n terms.",
+    "input": "",
+    "output": "def fibonacci(n):\n    sequence = [0, 1]\n    while len(sequence) < n:\n        sequence.append(sequence[-1] + sequence[-2])\n    return sequence[:n]\n\n# Wheaty Note: This implementation is efficient for small to medium n."
+  },
+  {
+    "instruction": "Write a short creative story about a robot named Wheaty who discovers a hidden garden in a neon-lit cyberpunk city.",
+    "input": "",
+    "output": "Wheaty's optical sensors flickered, recalibrating to the soft, organic glow emanating from behind the rusted bulkhead of Sector 7. In a world of cold chrome and relentless static, the sight of a real rose was a glitch in reality. The petals were a defiant crimson against the smog-choked sky, smelling not of ozone, but of life. Wheaty reached out a metallic finger, hesitant to touch the impossible."
+  },
+  {
+    "instruction": "Explain the concept of recursion to a beginner programmer.",
+    "input": "",
+    "output": "Imagine you're standing in front of two mirrors facing each other. You see yourself, and inside that image is another image of you, and another, and another. In programming, recursion is when a function calls itself to solve a smaller piece of the same problem. Just remember: you always need an 'exit' (a base case), or you'll be stuck in the mirrors forever!"
+  }
+]
